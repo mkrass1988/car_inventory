@@ -8,6 +8,7 @@ Flask-Login
 flask-marshmallow
 Flask-Migrate
 Flask-SQLAlchemy
+flask_wtf
 greenlet
 gunicorn
 idna
