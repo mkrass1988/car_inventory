@@ -5,7 +5,7 @@ from models import db, User, Car, car_schema, cars_schema
 api = Blueprint('api',__name__, url_prefix='/api')
 
 # Add car to inventory 
-@api.route('/cars', methods = ['POST'])
+@api.route('/inventory', methods = ['POST'])
 @token_required
 def add_car(current_user_token):
     make = request.json['make']
